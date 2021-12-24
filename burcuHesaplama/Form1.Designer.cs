@@ -56,9 +56,8 @@ namespace burcuHesaplama
             this.lblYasadiginizGun.Location = new System.Drawing.Point(209, 241);
             this.lblYasadiginizGun.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblYasadiginizGun.Name = "lblYasadiginizGun";
-            this.lblYasadiginizGun.Size = new System.Drawing.Size(57, 20);
+            this.lblYasadiginizGun.Size = new System.Drawing.Size(0, 20);
             this.lblYasadiginizGun.TabIndex = 0;
-            this.lblYasadiginizGun.Text = "label1";
             // 
             // label3
             // 
@@ -76,9 +75,8 @@ namespace burcuHesaplama
             this.lblBurcunuz.Location = new System.Drawing.Point(209, 275);
             this.lblBurcunuz.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBurcunuz.Name = "lblBurcunuz";
-            this.lblBurcunuz.Size = new System.Drawing.Size(57, 20);
+            this.lblBurcunuz.Size = new System.Drawing.Size(0, 20);
             this.lblBurcunuz.TabIndex = 0;
-            this.lblBurcunuz.Text = "label1";
             // 
             // dtpDogumTarihi
             // 
@@ -105,9 +103,8 @@ namespace burcuHesaplama
             this.lblYasiniz.Location = new System.Drawing.Point(210, 207);
             this.lblYasiniz.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblYasiniz.Name = "lblYasiniz";
-            this.lblYasiniz.Size = new System.Drawing.Size(57, 20);
+            this.lblYasiniz.Size = new System.Drawing.Size(0, 20);
             this.lblYasiniz.TabIndex = 0;
-            this.lblYasiniz.Text = "label1";
             // 
             // label6
             // 
@@ -133,6 +130,7 @@ namespace burcuHesaplama
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(427, 368);
             this.Controls.Add(this.btnHesapla);
             this.Controls.Add(this.dtpDogumTarihi);
@@ -145,6 +143,7 @@ namespace burcuHesaplama
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
